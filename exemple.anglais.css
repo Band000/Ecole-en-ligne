@@ -1,0 +1,73 @@
+body 
+
+body{
+    justify-content: center; 
+    align-content: center;
+    text-align: center;
+}
+
+image{
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: black;
+}
+
+h3{
+    justify-content:  center;
+    text-align: right;
+}
+
+body .button{
+    padding: 15px 25px;
+   font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    color: ;
+    background:
+   
+   
+}
+
+h5{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    background: red;
+    color: white;
+}
+
+body .audio{
+    justify-content: center; 
+    text-align: center;
+   
+    width: 700px;
+    height: 100px;
+    margin: 40px;
+   
+    
+   
+}
+
+article{
+    justify-content:  center; 
+    text-align: center;
+}
+
+button{ padding: 10px 20px;
+    font-size: 30px;
+    color: yellow;
+    background-color: red;
+    cursor: pointer;
+    
+}

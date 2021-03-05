@@ -1,0 +1,21 @@
+body{
+    justify-content:  center; 
+    text-align: center;
+    
+}
+
+body .button{
+    background: red;
+    
+    height: px;
+    color: yellow;
+    margin: 10px;
+    font-size:  30px; 
+    padding: 15px 20px;
+}
+
+button{
+    background: blue;
+    padding:  20px 30px; 
+    margin: 20px;
+}

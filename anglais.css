@@ -1,0 +1,80 @@
+body{
+    display: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('images/pic01.jpg')
+   
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-attachment: fixed;
+}
+form .text{
+    display: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: 20px 30px;
+    
+}
+body .h2{
+    text-align: center;
+}
+body .button{
+padding: 15px 25px;
+font-size: 40px;
+color: yellow;
+background-color: black;
+    cursor: pointer;
+}
+    
+    body .test{
+        font-size: 40px;
+    }
+    
+
+style{display: flex;
+margin: 50px;
+}
+
+body{align-items: center;
+justify-content: center;
+text-align: center;
+}
+body .h1{ justify-content: center;
+    text-align: center;
+}
+
+body .lesona11{
+    
+    padding: 10px 20px;
+    font-size: 30px;
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
+
+body .lesona14{
+    padding: 10px 20px;
+    font-size: 30px;
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
+
+body .lesona18{
+    padding: 10px 20px;
+    font-size: 30px;
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
+
+body .inscription{
+    padding: 10px 20px;
+    font-size: 30px;
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
