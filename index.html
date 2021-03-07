@@ -210,7 +210,7 @@
 							
 						<!-- Contact -->
 							<article id="contact">
-								<h2 class="major">Contact</h2
+								<h2 class="major">Contact</h2>
 								<form method="post" action="">
 									<div class="fields">
 										<div class="field half">
@@ -239,7 +239,7 @@
 								</form>
 								<ul class="icons">
 									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://m.me/formationAnglaisEnligne" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
@@ -487,13 +487,42 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 							</article>
 
-					
-</div>
+					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<p class="copyright">&copy; copyright © cours en ligne. Page Facebook : <a href="https://m.me/formationAnglaisEnligne"><u>Anglais en ligne</u></a>.</p>
 					</footer>
+					
+					<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="404713830275723"
+  logged_in_greeting="Bonjour !  Comment puis-je vous aider svp? "
+  logged_out_greeting="Bonjour !  Comment puis-je vous aider svp? ">
+      </div>
+
+			</div>
+
+		<!-- BG -->
 			<div id="bg"></div>
 
 		<!-- Scripts -->
@@ -502,6 +531,37 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="404713830275723"
+  logged_in_greeting="Salama tompoko, soraty ato amin'ny message ato ny numero anao na cash point. Tsindrio eto👇 "
+  logged_out_greeting="Salama tompoko, soraty ato amin'ny message ato ny numero anao na cash point. Tsindrio eto👇">
+      </div>
+
+
+
+			
+
 	</body>
 </html>
 
