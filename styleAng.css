@@ -1,0 +1,15 @@
+body{
+    justify-content: center; 
+    align-content: center;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    background-color: red;
+    color: blue;
+}
+
+button{
+    background-color: red ;
+}
